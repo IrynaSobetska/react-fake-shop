@@ -7,19 +7,19 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/react-fake-shop/">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/react-fake-shop/smartphones">Smartphones</NavLink>
+            <NavLink to="smartphones">Smartphones</NavLink>
           </li>
           <li>
-            <NavLink to="/react-fake-shop/laptops">Laptops</NavLink>
+            <NavLink to="laptops">Laptops</NavLink>
           </li>
           <li>
-            <NavLink to="/react-fake-shop/lighting">Lighting</NavLink>
+            <NavLink to="lighting">Lighting</NavLink>
           </li>
           <li>
-            <NavLink to="/react-fake-shop/furniture">Furniture</NavLink>
+            <NavLink to="furniture">Furniture</NavLink>
           </li>
         </ul>
       </nav>
