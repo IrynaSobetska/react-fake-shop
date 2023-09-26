@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  margin: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.error {
+  margin: 100px;
+  padding: 10px 20px;
+
+  background: #f3f1e2;
+  color: #283618;
+
+  border-radius: 2px;
+  border-width: 1px;
+}

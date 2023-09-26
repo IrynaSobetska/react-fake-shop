@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+a {
+  color: #2f630f;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
