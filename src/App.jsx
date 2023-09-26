@@ -17,7 +17,7 @@ function App() {
         <h1>Fake store</h1>
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/react-fake-shop/" element={<Home />} />
           <Route path="/smartphones" element={<Smartphones />} />
           <Route path="/laptops" element={<Laptops />} />
           <Route path="/lighting" element={<Lighting />} />
