@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/react-fake-shop/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/smartphones">Smartphones</NavLink>
