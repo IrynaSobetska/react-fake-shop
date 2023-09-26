@@ -18,10 +18,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/react-fake-shop/" element={<Home />} />
-          <Route path="/smartphones" element={<Smartphones />} />
-          <Route path="/laptops" element={<Laptops />} />
-          <Route path="/lighting" element={<Lighting />} />
-          <Route path="/furniture" element={<Furniture />} />
+          <Route
+            path="/react-fake-shop/smartphones"
+            element={<Smartphones />}
+          />
+          <Route path="/react-fake-shop/laptops" element={<Laptops />} />
+          <Route path="/react-fake-shop/lighting" element={<Lighting />} />
+          <Route path="/react-fake-shop/furniture" element={<Furniture />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </div>
